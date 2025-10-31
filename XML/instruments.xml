@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <InstrumentSeries >
+  
+    <Model name ="Model 1PM">
+    
+
+      <Parameter name ="GRADE">
+        <options>
+          <option key="0" value="Industrial" />
+          <option key="1" value="Mil-Spec" />
+           <option key="2" value="Nuclear (Contact Otek)" />
+            <option key="3" value="Custom" />
+        </options>
+      </Parameter>
+      <Parameter name ="F.S. INPUT SIGNAL/Z in (2, 5)">
+        <options>
+          <option key="7" value="200mVRMS/1M Ohms" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+      
+       <Parameter name ="POWER INPUT">
+        <options>
+          <option key="0" value="Non-Isolated 5VDC" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="4" value="Signal Powered (Powerless™)" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+
+      <Parameter name ="DISPLAY CONFIGURATION (3)">
+        <options>
+          <option key="0" value="Standard" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>S
+      
+       <Parameter name ="SERIAL I/O (4)">
+        <options>
+          <option key="0" value="Signal Powered" />
+          <option key="1" value="RS232" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+      
+      <Parameter name ="CONTROL OUTPUTS and POWER OUTPUT (5,6)">
+        <options>
+          <option key="0" value="Signal Powered" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="4" value="Isol. 30VDC For Transmitter" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+      
+       <Parameter name ="HOUSING">
+        <options>
+          <option key="0" value="Plastic With Trim Plates" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+     
+      <Parameter name ="SCALE PLATE">
+        <options>
+          <option key="0" value="STANDARD (0-100%)" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+      <Parameter name ="RANGE/CALIBRATION">
+        <options>
+          <option key="0" value="STANDARD" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+      
+    </Model> 
+    
+    
+    <Model name ="Model2PM">
+      <Parameter name ="COMBINE">
+        <options  name="INPUTSIGNAL_OPTION">
+          <option key="0" value="4-20mA Loop Powered" >100</option>
+          <option key="1" value="3-6VDC Signal Powered" >100</option>
+          <option key="2" value="4-16VDC Signal Powered" >100</option>
+          <option key="3" value="+-1VDC External Powered">100</option>
+          <option key="4" value="+-10VCC External Powered" >100</option>
+          <option key="5" value="+-100VDC External Powered" >100</option>
+          <option key="6" value="+-1mADC External Powered" >100</option>
+          <option key="7" value="+-10mADC External Powered" >100</option>
+          <option key="8" value="+-100mADC External Powered" >100</option>
+          <option key="88" value="+-100mADC External Powered" >100</option>
+          <option key="9" value="Custom" />
+        </options>
+        <options  name="INPUTSIGNAL_OPTIONd">
+          <option key="0" value="4-20mA Loop Powered" >100</option>
+          <option key="1" value="3-6VDC Signal Powered" >100</option>
+          <option key="2" value="4-16VDC Signal Powered" >100</option>
+        </options>
+        
+        <options name="INPUTSIGNAL_OPTIOdNd">
+          <option key="0" value="Straight" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+
+      <Parameter name ="CONNECTING PINS (2)">
+        <options>
+          <option key="0" value="Straight" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+
+
+      <Parameter name ="POWER INPUT (2)">
+        <options>
+          <option key="0" value="Signal Powered" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+      
+       <Parameter name ="POWER INPUT (2)">
+        <options>
+          <option key="0" value="Signal Powered" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+
+      <Parameter name ="ANALOG POWER OUTPUTS (2)">
+        <options>
+          <option key="0" value="Signal Powered" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+      
+       <Parameter name ="ANALOG AMOL (2)">
+        <options>
+          <option key="0" value="Signal Powered" />
+          <option key="1" value="5VDC +- 10%" />
+          <option key="2" value="7-16VDC" />
+          <option key="9" value="Custom" />
+        </options>
+      </Parameter>
+      
+       <Parameter name ="ANALOG PRAMOD (2)">
+        <options>
+           <option key="0" value="4-20mA Loop Powered" >100</option>
+          <option key="1" value="3-6VDC Signal Powered" >100</option>
+          <option key="2" value="4-16VDC Signal Powered" >100</option>
+          <option key="3" value="+-1VDC External Powered">100</option>
+          <option key="4" value="+-10VCC External Powered" >100</option>
+          <option key="5" value="+-100VDC External Powered" >100</option>
+          <option key="6" value="+-1mADC External Powered" >100</option>
+          <option key="7" value="+-10mADC External Powered" >100</option>
+          <option key="8" value="+-100mADC External Powered" >100</option>
+          <option key="88" value="+-100mADC External Powered" >100</option>
+        </options>
+      </Parameter>
+
+
+ 		 <Parameter name ="ANALOG PRAMOD (2)">
+        <options>
+           <option key="0" value="4-20mA Loop Powered" >100</option>
+          <option key="1" value="3-6VDC Signal Powered" >100</option>
+          <option key="2" value="4-16VDC Signal Powered" >100</option>
+          <option key="3" value="+-1VDC External Powered">100</option>
+          <option key="4" value="+-10VCC External Powered" >100</option>
+          
+        </options>
+      </Parameter>
+
+    </Model> 
+    
+    
+    
+  </InstrumentSeries>
+
+
+</root>
+

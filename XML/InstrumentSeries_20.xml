@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <InstrumentSeries name="20" >
+    <Model name ="HI-Q114">
+      <Parameter name="BAR-DIGITAL COLOR" position="left">
+        <options>
+          <option key="0" value="Red, Green, Orange" price="1202" ></option>
+          <option key="9" value="Custom" price="CF" ></option>
+        </options>
+      </Parameter>
+
+      <Parameter name ="SERIAL I/O (1) - All Isolated" position="left">
+        <options>
+          <option key="1" value="RS232C/485" price="75"></option>
+          <option key="2" value="RS232C/422" price="75"></option>
+          <option key="4" value="USB" price="125"></option>
+          <option key="5" value="RS232 Only" price=""></option>
+          <option key="6" value="Translator 232 lt gt 422/485" price="75"></option>
+          <option key="7" value="Translator USB lt gt 422/485" price="75"></option>
+          <option key="9" value="Custom" price="CF"></option>
+        </options>
+      </Parameter>
+
+      <Parameter name ="POWER INPUT (2,3)" position="left">
+        <options >
+          <option key="0" value="5VDC" price="NC"></option>
+          <option key="1" value="10-32VDC" price="100"></option>
+          <option key="2" value="90-265VAC" price="100"></option>
+          <option key="3" value="120-350VDC" price="100"></option>
+          <option key="9" value="Custom" price="CF"></option>
+        </options>
+      </Parameter>
+
+      <Parameter name ="CONTROL OUTPUTS" position="left">
+        <options >
+          <option key="0" value="None" price="NC"></option>
+          <option key="1" value="Relays (6)" price="100"></option>
+          <option key="2" value="O.C.T. (8)" price="75"></option>
+        </options>
+      </Parameter>
+
+
+      <Parameter name ="ANALOG and POWER OUTPUTS(7)" position="left">
+        <options>
+          <option key="0" value="None" price="NC"></option>
+          <option key="1" value="4-20mA, 1 Each" price="100"></option>
+          <option key="2" value="0-5VDC, 1 Each" price="100"></option>
+          <option key="3" value="4-20mA, 2 Each" price="200"></option>
+          <option key="4" value="0-5VDC, 2 Each" price="200"></option>
+          <option key="5" value="4-20mA amp 0-5VDC, 1 Each" price="200"></option>
+          <option key="6" value="4-20mA amp 30V Compliance, 1 Each" price="150"></option>
+          <option key="7" value="0-5VDC amp 30V Compliance, 1 Each" price="150"></option>
+          <option key="8" value="30V Compliance, 1 Each" price="50"></option>
+          <option key="9" value="Custom" price="CF"></option>
+        </options>
+      </Parameter>
+
+      <Parameter name ="COMBINE" position="right">
+
+        <options  name="SIGNAL and DIGITAL INPUTS ( 2 Inputs)">
+          <option key="00" value="None" price="NC"></option>
+          <option key="01" value="Multilevel" price="75"></option>
+          <option key="02" value="TTL High Speed" price="75"></option>
+          <option key="09" value="Custom" price="CF"></option>
+        </options>
+
+        <options  name="ANALOG INPUTS (1 Channel)(3)">
+          <option key="10" value="VDC (1MΩ)" price="75"></option>
+          <option key="11" value="mADC" price="75"></option>
+          <option key="12" value="4-20mA Current Loop(25Ω)" price="75"></option>
+          <option key="14" value="VRMS (1MΩ)" price="150"></option>
+          <option key="15" value="mARMS" price="150"></option>
+          <option key="17" value="Strain-Gage (gt 200 lt400Ω)" price="150"></option>
+          <option key="18" value="Strain-Gage (gt1Klt5KΩ)" price="150"></option>
+          <option key="20" value="Resistance (50KΩ)" price="150"></option>
+          <option key="21" value="2W Temperature RTD" price="150"></option>
+          <option key="22" value="Temperature Thermocouple" price="150"></option>
+          <option key="23" value="3W RTD" price="200"></option>
+          <option key="25" value="mVDC (1MΩ)" price="150"></option>
+          <option key="29" value="Custom" price="CF"></option>
+        </options>
+
+        <options  name="ANALOG INPUTS (2 Channels) (3)">
+          <option key="30" value="VDC(1MΩ)" price="100"></option>
+          <option key="31" value="mADC" price="100"></option>
+          <option key="32" value="4-20mA Current Loop (25Ω)" price="100"></option>
+          <option key="33" value="Watts DC (1M-0.1Ω)" price="150"></option>
+          <option key="34" value="VRMS (1MΩ)" price="200"></option>
+          <option key="35" value="mARMS" price="200"></option>
+          <option key="36" value="Watts RMS (1M-0.1Ω)" price="200"></option>
+          <option key="41" value="2W Temperature RTD" price="175"></option>
+          <option key="42" value="Temperature TC" price="150"></option>
+          <option key="43" value="3W RTD" price="250"></option>
+          <option key="47" value="mVDC (1MΩ)" price="200"></option>
+          <option key="49" value="Custom" price="CF"></option>
+        </options>
+
+        <options  name="ANALOG INPUTS (3 Channels)(3)">
+          <option key="50" value="VDC (1MΩ)" price="125"></option>
+          <option key="51" value="mADC" price=""></option>
+          <option key="52" value="4-20mA Current Loop (25Ω)" price="125"></option>
+          <option key="53" value="V RMS (1MΩ)" price="125" ></option>
+          <option key="54" value="mA RMS" price="250" ></option>
+          <option key="55" value="2W Temperature RTD" price="250" ></option>
+          <option key="56" value="Temperature TC" price="200" ></option>
+          <option key="69" value="Custom" price="CF" ></option>
+        </options>
+
+      </Parameter>
+
+      <Parameter name ="HOUSING DEPTH (5)" position="right">
+        <options >
+          <option key="0" value="8quot Deep" price="NC" ></option>
+          <option key="E" value="To EPRI 102323R2" price="CF" ></option>
+          <option key="9" value="Custom" price="CF" ></option>
+        </options>
+      </Parameter>
+
+      <Parameter name =" GRADE (6)" position="right">
+        <options >
+          <option key="I" value="Industrial" price="NC" ></option>
+          <option key="M" value="To Mil-Spec" price="CF" ></option>
+          <option key="N" value="Nuclear (Contact Otek)" price="CF" ></option>
+          <option key="E" value="To EPRI (Contact Otek)" price="CF" ></option>
+        </options>
+      </Parameter>
+
+
+      <Parameter name="SCALE PLATE" position="right">
+        <options>
+          <option key="0" value="Standard (0-100%)" price="NC" ></option>
+          <option key="9" value="Custom" price="60/20" ></option>
+        </options>
+      </Parameter>
+
+
+      <Parameter name="RANGE/CALIBRATION" position="right">
+        <options>
+          <option key="0" value="Standard" price="NC" ></option>
+          <option key="9" value="Custom" price="CF" ></option>
+        </options>
+      </Parameter>
+
+
+     <notes>
+      	  <note >1. USB Option Plugs Into DB9 and Extends 1.25" From Rear of Instrument.</note>
+	      <note >2. Custom Blue/Red Display Requires Options 1 or 2 Power Input</note>
+	      <note >3. Volt amp Ranges are Internal Jumper Range Selectable .5, 5, 10 amp 50VDC, 1, 20mADC, Shipped with .5V or 1mA Unless Specified.</note>
+	      <note >4. Mixed Inputs VampA, Temp , 4-20, Etc. Available</note>
+	      <note >5. 14.5" Deep Housing with Specific Connector Termination on request.</note>
+	      <note >6. OTEK will build to certain nuclear or MIL-Standards but testing and confirmation of compliance, if required, will need to be done by a third party and at customer's expense.</note>
+	      <note >7. 30V compliance is for external transmitters/transducers.</note>note >
+	 </notes>
+
+
+
+
+
+    </Model>
+
+  </InstrumentSeries>
+
+
+</root>
+

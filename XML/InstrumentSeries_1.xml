@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <InstrumentSeries name="1" >
+    <Model name ="1PM">
+    
+    
+      <Parameter name="InPUT SIGNAL (41)" position="left">
+        <options  >
+          <option key="0" value="Amol Loop Powered" price="109" ></option>
+          <option key="1" value="3-6VDC Signal Powered"  price="109" ></option>
+          <option key="2" value="4-16VDC Signal Powered"  price="109" ></option>
+          <option key="3" value="+- 1VDC External Powered"  price="109" ></option>
+          <option key="4" value="+- 10VCC External Powered"  price="109" ></option>
+          <option key="5" value="+- 100VDC External Powered"  price="109" ></option>
+          <option key="6" value="+- 1mADC External Powered"  price="109" ></option>
+          <option key="7" value="+- 10mADC External Powered"  price="109" ></option>
+          <option key="8" value="+- 100mADC External Powered"  price="109" ></option>
+          <option key="9" value="Custom"  price="CF" ></option>
+        </options>
+               
+      </Parameter>
+    
+      
+       <Parameter name="Priya INPUT (23333)" position="right">
+        <options  >
+          <option key="0" value="Signal afg"  price="NC" ></option>
+          <option key="1" value="5VDC + 10%"  price="NC" ></option>
+           <option key="2" value="7-16VDC"  price="25" ></option>   
+            <option key="9" value="Custom"  price="CF" ></option>             
+        </options>               
+      </Parameter>
+      
+      
+      
+       <Parameter name="CONNECTING PINS6 (2)" position="right">
+        <options  >
+          <option key="0" value="Straight"  price="NC" ></option>
+          <option key="9" value="Custom"  price="CF" ></option>          
+        </options>               
+      </Parameter>   
+        
+     
+    
+ 
+     <notes>
+      	  <note >1.  Options "0-2" on 1st digit must use Option "0" on 2nd digit. Options "3-8" on 1st digit must use Options "1" or "2" on 2nd digit.</note>
+	      <note >2.  Contact OTEK for customs.</note>
+	     
+     </notes>
+     
+</Model>
+</InstrumentSeries>
+</root>

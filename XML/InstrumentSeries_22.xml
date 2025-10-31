@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <InstrumentSeries name="22" >
+    <Model name ="HI-Q111">
+      <Parameter name="SERIAL INPUT">
+        <options  >
+          <option key="0" value="RS-232C"  price=""></option>
+          <option key="1" value="RS-485"  price=""></option>
+          <option key="3" value="USB"  price=""></option>
+        </options>
+               
+      </Parameter>
+
+ 	   <Parameter name ="POWER INPUT">
+        <options >
+          <option key="0" value="Non-Isolated 5VDC"  price=""></option>
+          <option key="1" value="Isolated 6-32VDC"  price=""></option>
+          <option key="2" value="Isolated 90-265VAC"  price=""></option>
+          <option key="3" value="Non-Isolated 6-32VDC"  price=""></option>
+          <option key="4" value="Isolated 5VDC +/-5%"  price=""></option>
+          <option key="9" value="Custom (Specify)"  price=""></option>
+        </options> 
+      </Parameter>
+      
+      <Parameter name ="HOUSING (1)">
+        <options >
+          <option key="0" value="Standard"  price=""></option>
+          <option key="1" value="Explosion Proof"  price=""></option>
+          <option key="2" value="Sanitary"  price=""></option>
+             
+         </options> 
+      </Parameter>
+      
+  	   <Parameter name ="OTHER OPTIONS (2,3)">
+        <options >
+          <option key="0" value="None"  price=""></option>
+          <option key="9" value="Custom (Factory #)"  price=""></option>      
+         </options> 
+      </Parameter>
+
+      <Parameter name ="DEFUALT_0">
+        <options >
+          <option key="0" value="0"  price=""></option>
+        </options>
+      </Parameter>
+      
+    </Model> 
+
+  </InstrumentSeries>
+
+
+</root>
+

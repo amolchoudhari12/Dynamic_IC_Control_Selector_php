@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <InstrumentSeries name="15" >
+    <Model name ="HI-QCPM">
+      <Parameter name="DISPLAY COLOR" position="left">
+        <options  >
+          <option key="5" value="Green LED"  price="394" > </option>
+          <option key="6" value="Red LED"  price="394" > </option>
+          <option key="7" value="Extended w/Green" price="467" > </option>
+          <option key="8" value="Extended w/Red" price="467" > </option>
+        </options>
+               
+      </Parameter>
+
+ 	   <Parameter name ="POWER INPUT" position="left">
+        <options >
+          <option key="0" value="85-264VAC, 90 to 370VDC"  price="NC" > </option>
+          <option key="1" value="9-32VDC, 8 to 28VAC" price="50" > </option>    
+        </options> 
+      </Parameter>
+      
+      <Parameter name ="SETPOINT OUTPUT" position="left">
+        <options >
+          <option key="0" value="None" price="NC" > </option>
+          <option key="1" value="Dual 10A Relays" price="100" > </option>
+          <option key="2" value="Open Collectors" price="75" > </option>
+             
+         </options> 
+      </Parameter>
+      
+  	   <Parameter name ="ANALOG OUTPUT" position="left">
+        <options >
+          <option key="0" value="None" price="NC" > </option>
+          <option key="1" value="4-20mA, 0-10V" price="120" > </option> 
+          <option key="2" value="Batch Relay Out" price="75" > </option>
+       </options> 
+      </Parameter>
+
+      <Parameter name ="DIGITAL INTERFACE" position="right">
+        <options >
+          <option key="0" value="None"  price="NC" > </option>
+          <option key="1" value="RS-232C"  price="75" > </option>
+          <option key="2" value="RS-485" price="100" > </option>
+        </options>
+      </Parameter>
+      
+        <Parameter name ="COMMON" position="right">
+        <options name="INPUT TYPE (1)" >
+          <option key="FR" value="Scalable to 999,999" price="NC" > </option>
+        </options>
+        
+         <options name="VOLTAGE-TO-FREQUENCYCONVERTER (2)" >
+          <option key="VF1" value="4-20mA"  price="25" > </option>
+          <option key="VF2" value="0-1mA"  price="25" > </option>
+          <option key="VF3" value="0 to 10V"  price="25" > </option>
+          <option key="VF4" value="Special Ranges" price="50" > </option>
+        </options>
+        
+         <options name="QUADRATURE (3)" >
+          <option key="QD" value="Scalable to 999,999"  price="50" > </option>
+          
+        </options>
+      </Parameter>
+      
+      <Parameter name ="RANGE/CALIBRATION" position="right">
+        <options >
+          <option key="0" value="STANDARD"  price="NC" > </option>
+          <option key="9" value="Custom"  price="CF" > </option>         
+        </options>
+      </Parameter>
+     
+     
+      <notes>
+      	  <note > 1. Basic Counter: Frequency, rate, total (up or down), period (2 channels simultaneously), time interval A to B, square root of rate.
+      	  		  Extended Counter: Above plus rate and total simultaneously, linearize non-linear inputs, ratio, draw, arithmetic functions (A*B, A/B, A+B, A-B), phase angle, stop watch, up/down counting, batch counting.</note>
+	      <note >2. Basic Counter: Rate, square root of rate (differential pressure or target type flow meters).
+				  Extended Counter: Above plus rate and total simultaneously, linerize non-linear inputs, batch counting, 1/rate (time).</note>
+	      <note >3. Basic Counter: Position or length from encoders. Accepts differential or single-ended inputs, 1x, 2x or 4x inputs. Z
+				hannel (zero) input.</note>
+	     
+	 </notes>
+     
+    
+
+
+
+     
+    </Model> 
+
+  </InstrumentSeries>
+
+
+</root>
+

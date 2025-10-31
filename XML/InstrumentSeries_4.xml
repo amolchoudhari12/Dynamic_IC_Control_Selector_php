@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <InstrumentSeries name="4" >
+    <Model name ="6K">
+      <Parameter name ="COMBINE"  position="left">
+        <options  name="INPUT SIGNAL (1)">
+          <option key="00" value="Loop Powered 4-20mA" price="" ></option>
+          <option key="01" value="External Power 4-20mA" price="" ></option>
+          <option key="02" value="Signal Powered 4-30VDC" price="" ></option>
+          <option key="04" value="+200mVDC" price="" ></option>
+          <option key="05" value="+2VDC" price="" ></option>
+          <option key="06" value="+20VDC" price="" ></option>
+          <option key="07" value="+200VDC" price="" ></option>
+          <option key="08" value="+50mVDC" price="" ></option>
+          <option key="09" value="Custom" price="" ></option>
+          <option key="10" value="+ 200µADC" price="" ></option>
+          <option key="11" value="+2mADC" price="" ></option>
+          <option key="12" value="+20mADC" price="" ></option>
+          <option key="13" value="+200mADC" price="" ></option>
+          <option key="14" value="200mV RMS" price="" ></option>
+          <option key="15" value="2V RMS" price="" ></option>
+          <option key="16" value="0V RMS" price="" ></option>
+          <option key="17" value="200V RMS" price="" ></option>
+          <option key="18" value="50mV RMS" price="" ></option>
+          <option key="20" value="2mA RMS" price="" ></option>
+          <option key="21" value="20mA RMS" price="" ></option>
+          <option key="22" value="200mA RMS" price="" ></option>
+          <option key="23" value="5 Amp RMS" price="" ></option>
+          <option key="24" value="Strain-Gage (350 Ohm)" price="" ></option>
+          <option key="25" value="Strain-Gage (>1K Ohm)" price="" ></option>
+          <option key="26" value="RTD (PT100)" price="" ></option>
+          <option key="27" value="RTD (PT1000)" price="" ></option>
+          <option key="28" value="TC (Type J)" price="" ></option>
+          <option key="30" value="TC (Type K)" price="" ></option>
+          <option key="31" value="TC (Type T)" price="" ></option>
+          <option key="32" value="Frequency (40-20KHz)" price="" ></option>
+          <option key="33" value="Frequency (50-60Hz Line)" price="" ></option>
+          <option key="34" value="% RH (Specify Sensor))" price="" ></option>
+          <option key="35" value="pH (0-14.00))" price="" ></option>
+          <option key="36" value="ORP (0-2000mV)" price="" ></option>
+          <option key="37" value="Hi Speed Peak and Hold (2 VDC)" price="" ></option>
+          <option key="40" value="VAC Signal Powered (P.T.)" />
+          <option key="41" value="AAC Signal Powered (P.T. and C.T.)" price="" ></option>
+        </options>
+        
+       
+      </Parameter>
+
+ 	   <Parameter name ="SERIAL I/O (6)" position="right">
+        <options >
+          <option key="0" value="NoneA" price="" ></option>
+          <option key="1" value="RS232" price="" ></option>
+          <option key="2" value="RS485" price="" ></option>
+          <option key="3" value="USB" price="" ></option>
+          <option key="9" value="Custom" price="" ></option>          
+          </options> 
+      </Parameter>
+      
+      <Parameter name ="CASE (5)" position="right">
+        <options >
+          <option key="0" value="Snap-In" price="" ></option>
+          <option key="1" value="Explosion Proof" price="" ></option>
+          <option key="2" value="Sanitary" price="" ></option>
+          <option key="9" value="Custom"  price="" ></option>
+       
+         </options> 
+      </Parameter>
+      
+  	   <Parameter name ="CALIBRATION/RANGE (4)" position="right">
+        <options >
+          <option key="0" value="Standard" price="" ></option>
+           <option key="9" value="Custom" price="" ></option>
+       
+         </options> 
+      </Parameter>
+      
+        <Parameter name ="POWER INPUT (1)" position="right">
+        <options >
+          <option key="0" value="PowerlessTM" price="" ></option>
+           <option key="1" value="Non-Isolated 5VDC" price="" ></option>
+           <option key="2" value="Non-Isolated 6-32VDC" price="" ></option>
+           <option key="3" value="Isolated 10-28VDC" price="" ></option>
+           <option key="4" value="Isolated 120VAC" price="" ></option>
+           <option key="9" value="Custom" price="" ></option>
+        </options> 
+      </Parameter>
+      
+       <Parameter name ="DISPLAY TYPE (2)" position="right">
+        <options >
+          <option key="0" value="Red LED" price="" ></option>
+          <option key="9" value="Custom" price="" ></option>
+        </options> 
+      </Parameter>
+      
+      
+     <notes>
+      	  <note >1. Options 00, 02, 40 , 41 must use Option 0 (Powerless) on Digit 4 and Option 0 on Digit 7. Others must use Options 1-4 or 9 on Digit #4. See signal cond. description. Options 28-31 must specify range of interest within 3000 (F or C) span.</note>
+	      <note >2. Standard LED is red. For orange, yellow, green or blue, use Option #9 and specify color.</note>
+	      <note >3. Standard calibration is 0-10,000 counts for V Input, 0-10,000 for 4-20mA (0-100.00%) or per sensor's range.</note>
+	      <note >4. Sanitary case can hold up to three 6K's.</note>
+	      <note >5. No Serial I/O w/powerless. See User's Manual for full description of options.</note>
+	   	 </notes>
+
+    </Model> 
+
+
+
+
+
+
+
+  </InstrumentSeries>
+
+
+</root>
+

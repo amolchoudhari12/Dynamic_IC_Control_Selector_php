@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <InstrumentSeries name="Series_1"> 
+     <Model name ="Model 1PM" ModelSeriesXMLFileName="instruments.xml"></Model>
+     <Model name ="6K" ModelSeriesXMLFileName="InstrumentSeries_4.xml"></Model>
+     <Model name ="HI-Q111" ModelSeriesXMLFileName="InstrumentSeries_22.xml"></Model>
+     <Model name ="HI-QCPM" ModelSeriesXMLFileName="InstrumentSeries_15.xml"></Model> 
+     <Model name ="1PM" ModelSeriesXMLFileName="InstrumentSeries_1.xml"></Model> 
+     <Model name ="HI-Q114" ModelSeriesXMLFileName="InstrumentSeries_20.xml"></Model>
+  </InstrumentSeries>
+  </root>
