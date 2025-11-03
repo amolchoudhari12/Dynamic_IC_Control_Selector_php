@@ -21,9 +21,6 @@ Each section corresponds to one of the product models:
 - **HI-Q114** – Digital Bar Display Configurator  
 - **HI-QCPM** – Counter/Process Meter Configurator
 
-- https://www.otekcorp.com/main/index.php
-
-
   ---
 ## 🧠 Variations
 Like this there were more than 150 product sheets. A one single algorithm is responsible for rendering the all 150 variations on a single page by choosing the product.
