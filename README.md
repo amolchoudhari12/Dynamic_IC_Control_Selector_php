@@ -52,13 +52,13 @@ Each section corresponds to one of the product models:
 ## 🖼️ Demo Preview
 
 ### 1️⃣ 1PM – Process Monitor Configurator  
-![1PM Model](1PM.JPG)
+![1PM Model](Dynamic_IC_Control_Selector_php/ProductImages/1PM.JPG)
 
 ### 2️⃣ HI-Q114 – Bar Graph Display Configurator  
-![HI-Q114 Model](hi-q114.JPG)
+![HI-Q114 Model](Dynamic_IC_Control_Selector_php/ProductImages/hi-q114.JPG)
 
 ### 3️⃣ HI-QCPM – Counter / Process Meter Configurator  
-![HI-QCPM Model](hi-qcpm.JPG)
+![HI-QCPM Model](Dynamic_IC_Control_Selector_php/ProductImages/hi-qcpm.JPG)
 
 ---
 
@@ -67,14 +67,15 @@ Each section corresponds to one of the product models:
 ```
 otek-model-configurator/
 │
-├── Model-Pricing.php          # Main PHP script for model generation
-├── /assets                    # Images (PDF diagrams, logos)
-├── /css                       # Custom styling
-├── /js                        # Optional JS for interactivity
-├── 1PM.JPG                    # Reference image for 1PM model
-├── hi-q114.JPG                # Reference image for HI-Q114
-├── hi-qcpm.JPG                # Reference image for HI-QCPM
-└── README.md                  # Documentation
+├── Model-Pricing.php                      # Main PHP script for model generation
+├── /Dynamic_IC_Control_Selector_php/
+│   └── /ProductImages/                    # Contains reference images for configurators
+│        ├── 1PM.JPG
+│        ├── hi-q114.JPG
+│        └── hi-qcpm.JPG
+├── /css                                   # Custom styling
+├── /js                                    # Optional JS for interactivity
+└── README.md                              # Documentation
 ```
 
 ---
