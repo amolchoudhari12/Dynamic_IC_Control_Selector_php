@@ -87,6 +87,11 @@ otek-model-configurator/
 - Integrate **price calculation** based on selected options  
 - Add **login and admin panel** for saving configurations
 
+
+## 🏁 License
+
+This project is open for **learning and internal reference**.  
+For commercial or enterprise reuse, please provide author attribution.
 ---
 
 ## 👨‍💻 Author
