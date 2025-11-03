@@ -55,10 +55,10 @@ Each section corresponds to one of the product models:
 ![1PM Model](1PM.JPG)
 
 ### 2️⃣ HI-Q114 – Bar Graph Display Configurator  
-![HI-Q114 Model](Dynamic_IC_Control_Selector_php/ProductImages/hi-q114.JPG)
+![HI-Q114 Model](hi-q114.JPG)
 
 ### 3️⃣ HI-QCPM – Counter / Process Meter Configurator  
-![HI-QCPM Model](Dynamic_IC_Control_Selector_php/ProductImages/hi-qcpm.JPG)
+![HI-QCPM Model](hi-qcpm.JPG)
 
 ---
 
