@@ -22,7 +22,10 @@ Each section corresponds to one of the product models:
 - **HI-QCPM** – Counter/Process Meter Configurator
 
 - https://www.otekcorp.com/main/index.php
-  
+
+
+  ---
+## 🧠 Variations
 Like this there were more than 150 product sheets. A one single algorithm is responsible for rendering the all 150 variations on a single page by choosing the product.
 Below demo shows 3 variations amoung them
 ---
