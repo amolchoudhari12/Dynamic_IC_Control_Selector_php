@@ -5,6 +5,12 @@ It allows users to interactively select control parameters, input types, power o
 
 ---
 
+## 🏢 Client
+
+**OTEK Corp.**  
+🔗 [https://www.otekcorp.com/main/index.php/](https://www.otekcorp.com/main/index.php/)
+
+---
 ## 🧠 Overview
 
 The **Model Configurator** web application visually mirrors the PDF datasheet format of OTEK instruments.  
@@ -14,6 +20,8 @@ Each section corresponds to one of the product models:
 - **1PM** – Process Monitor Configurator  
 - **HI-Q114** – Digital Bar Display Configurator  
 - **HI-QCPM** – Counter/Process Meter Configurator
+
+- https://www.otekcorp.com/main/index.php
   
 Like this there were more than 150 product sheets. A one single algorithm is responsible for rendering the all 150 variations on a single page by choosing the product.
 Below demo shows 3 variations amoung them
