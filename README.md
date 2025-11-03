@@ -14,7 +14,7 @@ Each section corresponds to one of the product models:
 - **1PM** – Process Monitor Configurator  
 - **HI-Q114** – Digital Bar Display Configurator  
 - **HI-QCPM** – Counter/Process Meter Configurator  
-
+Like this there were more than 150 product sheets. a one single algorithm is responsible all the 150 variations.
 ---
 
 ## 🧩 Tech Stack
