@@ -52,7 +52,7 @@ Each section corresponds to one of the product models:
 ## 🖼️ Demo Preview
 
 ### 1️⃣ 1PM – Process Monitor Configurator  
-![1PM Model](Dynamic_IC_Control_Selector_php/ProductImages/1PM.JPG)
+![1PM Model](1PM.JPG)
 
 ### 2️⃣ HI-Q114 – Bar Graph Display Configurator  
 ![HI-Q114 Model](Dynamic_IC_Control_Selector_php/ProductImages/hi-q114.JPG)
