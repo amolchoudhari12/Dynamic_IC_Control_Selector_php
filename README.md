@@ -13,8 +13,10 @@ It enables engineers, distributors, and customers to **select and generate model
 Each section corresponds to one of the product models:
 - **1PM** – Process Monitor Configurator  
 - **HI-Q114** – Digital Bar Display Configurator  
-- **HI-QCPM** – Counter/Process Meter Configurator  
-Like this there were more than 150 product sheets. a one single algorithm is responsible all the 150 variations.
+- **HI-QCPM** – Counter/Process Meter Configurator
+  
+Like this there were more than 150 product sheets. A one single algorithm is responsible for rendering the all 150 variations on a single page by choosing the product.
+Below demo shows 3 variations amoung them
 ---
 
 ## 🧩 Tech Stack
